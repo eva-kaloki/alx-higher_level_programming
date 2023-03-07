@@ -16,4 +16,3 @@ def fizzbuzz():
         # Otherwise, print the number
         else:
             print(i, end=" ")
-
