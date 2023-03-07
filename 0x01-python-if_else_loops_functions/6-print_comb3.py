@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-# This program generates and prints all possible combinations of two digits in ascending order, following the given constraints.
-for i in range(0, 10):
-    for j in range(i+1, 10):
-        if i == 8 and j == 9:
-            print("{:02d}{:d}".format(i, j))
+for x in range(0, 10):
+    for y in range(x + 1, 10):
+        if x == 8 and y == 9:
+            print('89')
         else:
-            print("{:02d}{:d}, ".format(i, j), end="")
+            print('{}{}, '.format(x, y), end='')
