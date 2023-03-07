@@ -1,10 +1,7 @@
 #!/usr/bin/python3
-# This function takes a string as an argument and prints the uppercase version of the string followed by a new line.
-def uppercase(s):
-    for i in s:
+def uppercase(str):
+    for i in str:
         if ord(i) >= 97 and ord(i) <= 122:
-            print(chr(ord(i) - 32), end="")
-        else:
-            print(i, end="")
+            i = chr(ord(i) - 32)
+        print("{}".format(i), end="")
     print()
-
