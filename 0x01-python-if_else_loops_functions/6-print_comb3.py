@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # This program generates and prints all possible combinations of two digits in ascending order, following the given constraints.
 for i in range(0, 10):
     for j in range(i+1, 10):
