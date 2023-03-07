@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 # Define the fizzbuzz function
 def fizzbuzz():
     # Loop through numbers 1 to 100
